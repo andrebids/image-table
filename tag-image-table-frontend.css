@@ -1,0 +1,193 @@
+/* Estilos para o front-end */
+.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wp-list-table th, 
+.wp-list-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.wp-list-table th {
+    background-color: #3A3F5A;
+}
+
+.wp-list-table td {
+    background-color: #343a50;
+}
+
+.tag-item {
+    background-color: #4A4E69;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.bulk-actions-bar {
+    color: #ffffff;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #6C757D;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #5a6268;
+}
+
+input[type="text"], 
+select {
+    background-color: #444;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.dimension-input {
+    width: 80px;
+}
+
+.remove-tag {
+    color: #ff5c5c;
+    cursor: pointer;
+}
+
+/* Estilo para botões "Salvar" quando houver alterações não salvas */
+.button.unsaved {
+    background-color: #FF6347; /* Cor de destaque para alterações não salvas */
+    color: #ffffff;
+}
+
+.button.unsaved:hover {
+    background-color: #FF4500; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilos adicionais para paginação */
+.tablenav-pages .page-numbers {
+    color: #ffffff; /* Texto da paginação em branco */
+    background-color: #6C757D; /* Fundo da paginação */
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.tablenav-pages .page-numbers.current {
+    background-color: #5a6268; /* Fundo da página atual */
+    color: #ffffff; /* Texto da página atual */
+}
+
+.tablenav-pages .page-numbers:hover {
+    background-color: #4e555b; /* Cor ao passar o mouse sobre os números da paginação */
+}
+
+/* Ajustes para visibilidade do texto */
+.alignleft label {
+    color: #ffffff; /* Texto "Imagens por página" em branco */
+    margin-right: 5px;
+}
+
+/* Ajustes para o campo de entrada "Ir para a página" */
+#goto-page {
+    background-color: #444;
+    color: #ffffff;
+    border: 1px solid #555;
+    width: 80px; /* Aumentando o tamanho do campo de entrada */
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    text-align: center; /* Alinhamento central para melhor visibilidade do número */
+}
+
+.exclude-tags-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.exclude-tags-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative; /* Adiciona contexto de empilhamento */
+    z-index: 9999; /* Garante que o conteúdo do modal fique acima do fundo */
+}
+
+.close-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para o autocomplete */
+.ui-autocomplete {
+    z-index: 10000; /* Valor maior que o z-index do modal */
+    background-color: #fefefe;
+    border: 1px solid #888;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.ui-autocomplete .ui-menu-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.ui-autocomplete .ui-menu-item:hover {
+    background-color: #f0f0f0;
+}
+.exclude-tags-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.exclude-tags-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative; /* Adiciona contexto de empilhamento */
+    z-index: 9999; /* Garante que o conteúdo do modal fique acima do fundo */
+}
